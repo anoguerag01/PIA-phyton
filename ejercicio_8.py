@@ -6,4 +6,4 @@
 # entera respectivamente.
 n=int( input("introduce el dividendo (numero entero): "))
 m=int( input("introduce el divisor (numero entero): "))
-print(n + " entre " +  m + "el cociente es: " + str((n) // (m)) + " y el resto es: " + str((n) % (m)))
+print(n + " entre " +  m + "el cociente es: " + str((n) // (m)) + " y el resto es: " + str((n) % (m))) 
