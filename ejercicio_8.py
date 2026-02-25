@@ -4,8 +4,6 @@
 # son los números introducidos por el usuario, y <c> 
 # y <r> son el cociente y el resto de la división 
 # entera respectivamente.
-n= input("introduce el dividendo (numero entero): ")
-m= input("introduce el divisor (numero entero): ")
-n = input("Introduce el dividendo (entero): ")
-m = input("Introduce el divisor (entero): ")
-print(n + " entre " +  m + "el cociente es: " + str(int(n) // int(m)) + " y el resto es: " + str(int(n) % int(m)))
+n=int( input("introduce el dividendo (numero entero): "))
+m=int( input("introduce el divisor (numero entero): "))
+print(n + " entre " +  m + "el cociente es: " + str((n) // (m)) + " y el resto es: " + str((n) % (m)))
