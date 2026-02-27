@@ -4,4 +4,4 @@
 
 n= int(input("Introduzca un numero entero y positivo: "))
 suma=n*(n+1)/2
-print
+print("La suma de los primeros números enteros desde 1 hasta " + str(n) + " es " + str(suma))
