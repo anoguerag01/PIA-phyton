@@ -7,6 +7,6 @@ peso_payaso=112
 peso_muñeca=75
 payaso=int(input("Escribe el numero de payasos a enviar: "))
 muñeca=int(input("Escribe el numero de muñecas a enviar: "))
-peso_total=peso_payaso*payaso + peso_muñeca*muñeca
+peso_total=(peso_payaso*payaso) + (peso_muñeca*muñeca)
 
 print("El peso total del paquete es de : " + str(peso_total)+" kg")
