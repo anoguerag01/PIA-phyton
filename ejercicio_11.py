@@ -4,7 +4,7 @@
 #depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y 
 #mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años. 
 #Redondear cada cantidad a dos decimales.
-cuenta_ahorros= float(input("Introduce la cantidad inicial invertda"))
+cuenta_ahorros= float(input("Introduce la cantidad inicial invertida: "))
 intereses=0.04
 balance_1=cuenta_ahorros*(1+intereses)
 print("El balance del primer año sería: "+ str(round(balance_1,2)))
